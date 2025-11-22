@@ -1,0 +1,433 @@
+(base) root@autodl-container-5be9469379-c8b581ad:~/autodl-tmp/lab7# python batch_practice.py
+Reading lines...
+Read 24026 sentence pairs
+Trimmed to 1471 sentence pairs
+Counting words...
+Counted words:
+cmn 1297
+eng 1114
+Example pair: ['她 很 善 于 砍 价', 'she s good at bargaining the price down']
+
+> 他 們 現 在 正 在 吃 早 飯
+= they are having breakfast now
+< they are having breakfast now <EOS>
+
+> 他 很 穷
+= he is poor
+< he is poor to be a <EOS>
+
+> 我 在 考 虑 明 年 去 国 外
+= i am thinking of going abroad next year
+< i m thinking of going abroad next year <EOS>
+
+> 我 在 節 食
+= i m on a diet
+< i m on the radio a walk <EOS>
+
+> 我 願 意 參 加 這 場 會 議
+= i am willing to attend the meeting
+< i am willing to attend the meeting <EOS>
+
+> 你不會來 是嗎
+= you are not coming are you
+< you are not going to save up in <EOS>
+
+> 你 很 健 忘
+= you re quite forgetful
+< you re very alert with soon <EOS>
+
+> 他 的 年 龄 是 她 的 两 倍
+= he is twice as old as she is
+< he is twice as old as she is <EOS>
+
+> 已 经 没 事 了
+= i m fine now
+< i m sick and tired this now <EOS>
+
+> 我 對 此 真 不 高 興
+= i m really not happy about it
+< i m really looking forward to it <EOS>
+
+> 我 们 在 等 汤 姆
+= we re waiting for tom
+< we re waiting for tom tom get <EOS>
+
+> 我 真 怕 蜘 蛛
+= i m really scared of spiders
+< i m really prepared of spiders of life <EOS>
+
+> 我 是 個 不 成 器 的 人
+= i m a loser
+< i m a loser <EOS>
+
+> 我 正 忙 著 找 公 寓
+= i m busy looking for an apartment
+< i m busy looking for an apartment <EOS>
+
+> 他 总 是 在 笑
+= he s always smiling
+< he is always laughing well now <EOS>
+
+/root/miniconda3/lib/python3.12/site-packages/nltk/translate/bleu_score.py:577: UserWarning: 
+The hypothesis contains 0 counts of 2-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+> 我 们 今 晚 出 去
+= we re going out tonight
+< we re going out tonight <EOS>
+
+> 我 太 忙 了 不 能 去
+= i m too busy to go
+< i am too busy to go to <EOS>
+
+> 他 在 靠 近
+= he s coming closer
+< he s doing the thief in french <EOS>
+
+> 对不起 我没有听见你说话
+= i m sorry i didn t hear you
+< i m sorry to save room for dessert <EOS>
+
+> 我 們 受 夠 了 你 的 抱 怨
+= we re fed up with your complaining
+< we re fed up with your complaining <EOS>
+
+> 我 餓 得 像 匹 馬
+= i m as hungry as a horse
+< i m as hungry as a horse <EOS>
+
+> 我 在 考 虑 明 年 去 国 外
+= i m thinking of going abroad next year
+< i m thinking of going abroad next year <EOS>
+
+> 他 們 正 在 拆 這 面 牆
+= they are breaking down the wall
+< they are breaking down the wall <EOS>
+
+> 你 太 大 方 了
+= you re too generous
+< you re too generous to have her <EOS>
+
+> 他 不 是 美 国 人
+= he isn t an american
+< he is not an american <EOS>
+
+> 我 們 不 在 波 士 頓
+= we re not in boston
+< we re not in boston on <EOS>
+
+> 我 习 惯 晚 睡
+= i m used to staying up late
+< i m used to staying at at next week <EOS>
+
+> 她 只 是 個 孩 子
+= she s just a child
+< she s just a a child <EOS>
+
+> 我 厭 倦 了 跳 舞
+= i m tired of dancing
+< i m tired of dancing of life <EOS>
+
+> 能 够 出 一 份 力 太 好 了
+= i m glad i could help
+< i m glad i could help you <EOS>
+
+> 她 是 个 迷 人 的 女 孩 子
+= she s a glamorous girl
+< she s a glamorous girl <EOS>
+
+> 我 期 待 聖 誕 節 的 到 來
+= i am looking forward to christmas
+< i am looking forward to christmas <EOS>
+
+> 我 们 难 以 找 到 汤 姆
+= we re having difficulty locating tom
+< we re having difficulty locating tom did <EOS>
+
+> 我 喜 歡 車
+= i am fond of cars
+< i am fond of cars coffee coffee left <EOS>
+
+> 我 们 在 找 他
+= we re looking for him
+< i m almost for for some for <EOS>
+
+> 我 現 在 不 忙
+= i m not busy now
+< i am not at home now now <EOS>
+
+> 他 沒 你 高
+= he s not as tall as you are
+< he s not as tall as taller than you <EOS>
+
+> 他 在 演 奏 音 樂
+= he is playing music
+< he is playing music music <EOS>
+
+> 我 明 天 要 離 開 去 東 京
+= i am leaving for tokyo tomorrow
+< i am leaving for tokyo tomorrow <EOS>
+
+> 我结婚了 而且有两个孩子
+= i am married and have two children
+< i am going to wash room for dessert <EOS>
+
+> 他 只 是 跟 你 開 玩 笑
+= he is just pulling your leg
+< he is just pulling your leg <EOS>
+
+> 我 是 札 幌 的 市 民
+= i am a citizen of sapporo
+< i am a citizen of sapporo sapporo <EOS>
+
+> 她 穿 着 白 色 的 衣 服
+= she is dressed in white
+< she is dressed in white <EOS>
+
+> 我 們 在 跟 時 間 鬥 爭
+= we re fighting against time
+< we re fighting against time <EOS>
+
+> 他 现 在 出 去 了
+= he is out now
+< he is out now now <EOS>
+
+> 他 说 话 很 直 接
+= he s very straightforward
+< he s very straightforward very <EOS>
+
+> 他 们 年 龄 相 仿
+= they are about the same age
+< they are about the same age <EOS>
+
+> 我 1 6 岁 了
+= i am sixteen years old
+< i am sixteen that old old she <EOS>
+
+> 我 们 待 在 舅 舅 家
+= we are staying at our uncle s
+< i am staying at our uncle s advocate <EOS>
+
+> 我 担 心 我 的 体 重
+= i m worried about my weight
+< i m worried about my weight worried <EOS>
+
+> 我 還 要 再 待 幾 個 星 期
+= i am staying for another few weeks
+< i am staying for another few weeks <EOS>
+
+> 我 不 太 聰 明
+= i m not too smart
+< i m not too smart to it <EOS>
+
+> 我 有 點 醉 了
+= i am a bit drunk
+< i am a little and surprised you <EOS>
+
+> 他 怕 那 只 狗
+= he s scared of that dog
+< he s afraid of the dog of life <EOS>
+
+> 他 跟 您 年 纪 差 不 多
+= he s about the same age as you are
+< he s about the same age as you are <EOS>
+
+> 他正睡着 像个婴儿一样
+= he s sleeping like a baby
+< he s sleeping for peace in this <EOS>
+
+> 我 是 這 裡 的 外 地 人
+= i am a stranger here
+< i am a stranger here <EOS>
+
+> 我 們 沒 有 看 著
+= we re not looking
+< we re not looking <EOS>
+
+> 他 們 正 在 聊 天
+= they are having a chat
+< they are having a chat <EOS>
+
+> 我 处 在 绝 境
+= i m in a desperate situation
+< i m in a desperate situation situation <EOS>
+
+> 他 是 你 的 朋 友
+= he s your friend
+< he s your friend are <EOS>
+
+> 我 肯 定 他 会 成 功 的
+= i am sure that he will succeed
+< i am sure that he success succeed <EOS>
+
+> 她 是 t o m 的 姐 妹
+= she s tom s sister
+< she s tom s sister <EOS>
+
+> 我 在 修 洗 衣 機
+= i am repairing the washing machine
+< i m fixing the washing machine machine <EOS>
+
+> 我 跟 她 訂 婚 了
+= i am engaged to her
+< i am engaged to her <EOS>
+
+> 她 没 像 你 那 样 有 耐 心
+= she is not as patient as you
+< she is not as patient as you <EOS>
+
+> 我 們 沒 有 看 著
+= we re not looking
+< we re not looking <EOS>
+
+> 我 厭 倦 了 翻 譯
+= i m tired of translating
+< i m tired of translating of hamburgers <EOS>
+
+> 他 打 网 球 打 得 很 好
+= he is good at playing tennis
+< he is good at playing tennis <EOS>
+
+> 我 好 高 興
+= i m very happy
+< i m glad to have the result <EOS>
+
+> 我 習 慣 整 夜 工 作
+= i m used to working all night
+< i m used to working all to here <EOS>
+
+> 他 是 義 大 利 人
+= he is an italian
+< he is an italian at oxford <EOS>
+
+> 我 愛 足 球 愛 瘋 了
+= i m crazy about football
+< i m crazy about football <EOS>
+
+> 他 是 个 棒 球 手
+= he is a baseball player
+< he is a baseball player <EOS>
+
+> 他 面 臨 著 許 多 困 難
+= he is confronted by many difficulties
+< he is confronted by many difficulties <EOS>
+
+> 我 在 告 訴 你 真 相
+= i m telling you the truth
+< i m telling you the truth from <EOS>
+
+> 他 一 點 一 點 地 變 好
+= he is getting better bit by bit
+< he is getting better bit by bit <EOS>
+
+> 你 滑 雪 比 我 好
+= you re a better skier than me
+< you re a better skier than better <EOS>
+
+> 我 个 子 高
+= i am tall
+< i m proud of tall as tall <EOS>
+
+> 我 是 跑 得 最 快 的 人
+= i am the fastest runner
+< i am the fastest runner <EOS>
+
+> 她 不 是 一 個 好 廚 師
+= she isn t a good cook
+< she isn t a good cook <EOS>
+
+> 她 总 是 尝 试 新 事 物
+= she is always trying new things
+< she is always trying new things <EOS>
+
+> 你 真 的 很 漂 亮
+= you re really beautiful
+< you re really beautiful <EOS>
+
+> 我 尽 量 留 着 胃 吃 甜 点
+= i m trying to save room for dessert
+< i m trying to save room for dessert <EOS>
+
+> 我 新 接 触 這 種 工 作
+= i m new at this kind of work
+< i m new at this kind of work <EOS>
+
+> 我 对 这 气 候 习 惯 了
+= i m accustomed to the climate
+< i m accustomed to the climate <EOS>
+
+> 我 现 在 正 在 学 习
+= i am studying now
+< i am studying now now <EOS>
+
+> 我 正 在 學 習 如 何 駕 駛
+= i m learning how to drive
+< i m learning how to drive <EOS>
+
+> 我 是 个 大 学 生
+= i m a university student
+< i am a college student student <EOS>
+
+> 她 比 你 大 兩 歲
+= she is two years older than you
+< she is two years older than you <EOS>
+
+> 我 新 接 触 這 種 工 作
+= i m new at this kind of work
+< i m new at this kind of work <EOS>
+
+> 他 比 我 大 三 歲
+= he s three years older than me
+< he s three years older than me <EOS>
+
+> 我 很 抱 歉
+= i m sorry
+< i m sorry sorry that so so often <EOS>
+
+> 她 大 約 跟 我 同 年 紀
+= she s about the same age as me
+< she is about my age <EOS>
+
+> 我 從 來 沒 有 上 學 遲 到
+= i m never late for school
+< i m never late for school <EOS>
+
+> 我 很 高 興 能 夠 認 識 您
+= i m glad to make your acquaintance
+< i m glad to make your acquaintance <EOS>
+
+> 我 没 在 忙
+= i m not busy
+< i m not busy sure tom this time <EOS>
+
+> 我 太 忙 了 不 能 去
+= i m too busy to go
+< i am too busy to go to <EOS>
+
+> 他 可 能 又 遲 到 了
+= he is likely to be late again
+< he is likely to be late to <EOS>
+
+> 今 天 下 午 我 會 外 出
+= i am going out this afternoon
+< i am going out this afternoon <EOS>
+
+The bleu_score is  0.6264705464428588
+
+input = 他 和 他 的 邻 居 相 处
+output = he is getting along with his neighborhood <EOS>
+[Saved] attention_1.png
+input = 我 肯 定 他 会 成 功 的
+output = i am sure that he success succeed <EOS>
+[Saved] attention_2.png
+input = 他 總 是 忘 記 事 情
+output = he is always forgetting things <EOS>
+[Saved] attention_3.png
+input = 我 们 非 常 需 要 食 物
+output = we are badly in need of food <EOS>
+[Saved] attention_4.png
+input = 你 只 是 玩
+output = you are just a coward for time <EOS>
+[Saved] attention_5.png

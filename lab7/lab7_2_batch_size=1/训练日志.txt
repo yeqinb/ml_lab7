@@ -1,0 +1,425 @@
+(base) root@autodl-container-5be9469379-c8b581ad:~/autodl-tmp/lab7#  python batch_practice.py
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Reading lines...
+Read 24026 sentence pairs
+Trimmed to 1628 sentence pairs
+Counting words...
+Counted words:
+cmn 1465
+eng 1240
+Example pair: ['你是做這份工作最好的人選。', 'you re the best man for the job .']
+Starting training...
+1m 33s (- 13m 57s)  Iter 5000/50000  Loss: 3.3882
+3m 6s (- 12m 27s)  Iter 10000/50000  Loss: 2.7391
+4m 45s (- 11m 6s)  Iter 15000/50000  Loss: 2.0745
+6m 22s (- 9m 33s)  Iter 20000/50000  Loss: 1.3663
+7m 59s (- 7m 59s)  Iter 25000/50000  Loss: 0.7633
+9m 39s (- 6m 26s)  Iter 30000/50000  Loss: 0.4023
+11m 13s (- 4m 48s)  Iter 35000/50000  Loss: 0.2114
+12m 50s (- 3m 12s)  Iter 40000/50000  Loss: 0.1407
+14m 34s (- 1m 37s)  Iter 45000/50000  Loss: 0.1127
+16m 11s (- -1m 59s)  Iter 50000/50000  Loss: 0.1122
+Models saved.
+
+> 他不是傻子。
+= he is not stupid .
+< he is no fool . <EOS>
+
+> 我在家。
+= i m at home .
+< i m at home . <EOS>
+
+> 我的白髮越來越多。
+= i m getting more and more gray hair .
+< i m getting more and more gray hair . <EOS>
+
+> 我是个老实人。
+= i am an honest person .
+< i am an honest person . <EOS>
+
+> 我不回去。
+= i m not turning back .
+< i m not turning back . <EOS>
+
+> 你太漂亮了！
+= you re so beautiful !
+< you re so beautiful ! <EOS>
+
+> 他在看电视。
+= he is watching tv .
+< he is watching tv . <EOS>
+
+> 你的租金遲交了一個月。
+= you re a month behind in your rent .
+< you re a month behind in your rent . <EOS>
+
+> 她举止优雅。
+= she is graceful .
+< she is graceful . <EOS>
+
+> 他决心去英国。
+= he is determined to go to england .
+< he is determined to go to england . <EOS>
+
+> 我学两种外语。
+= i am learning two foreign languages .
+< i am learning two foreign languages . <EOS>
+
+> 她不害怕任何東西。
+= she is not afraid of anything .
+< she is not afraid of anything . <EOS>
+
+> 我今天忙。
+= i am busy today .
+< i am busy today . <EOS>
+
+> 他们都是无辜的孩子。
+= they are all innocent children .
+< they are all innocent children . <EOS>
+
+> 你就没在听。
+= you re not even listening .
+< you re not even listening . <EOS>
+
+> 我很好奇。
+= i am curious .
+< i am curious . <EOS>
+
+> 你有病！
+= you re sick !
+< you re sick ! <EOS>
+
+> 我在吃米饭。
+= i m eating rice .
+< i m eating rice . <EOS>
+
+> 我們在吃蘋果。
+= we re eating apples .
+< we re eating apples . <EOS>
+
+> 他比我年轻。
+= he s younger than me .
+< he s younger than me . <EOS>
+
+> 我在班里是最高的。
+= i m the tallest in our class .
+< i m the tallest one in the class . <EOS>
+
+> 他不是個高中生。
+= he is not a high school student .
+< he is not a high school student . <EOS>
+
+> 我结婚了。
+= i m married .
+< i m married . <EOS>
+
+> 他明天將離開芝加哥。
+= he is leaving chicago tomorrow .
+< he is leaving chicago tomorrow . <EOS>
+
+> 我是一名電工。
+= i am an electrician .
+< i am an electrician . <EOS>
+
+> 我確信他已經完成了。
+= i am positive that he has finished .
+< i am positive that he has finished . <EOS>
+
+> 我是网球俱乐部的会员。
+= i am a member of the tennis club .
+< i am a member of the tennis club . <EOS>
+
+> 她为自己所做的事感到羞耻。
+= she is ashamed of what she s done .
+< she is ashamed of what she s done . <EOS>
+
+> 她不害怕任何東西。
+= she is not afraid of anything .
+< she is not afraid of anything . <EOS>
+
+> 我们不再像汤姆那样年轻。
+= we re not as young as tom .
+< we re not as young as tom . <EOS>
+
+> 你是教授。
+= you are a professor .
+< you are a professor . <EOS>
+
+> 你要當媽了。
+= you re going to be a mommy .
+< you re going to be a mommy . <EOS>
+
+> 她不让我们知道真相。
+= she s hiding the truth from us .
+< she s hiding the truth from us . <EOS>
+
+> 我非常，非常抱歉。
+= i am very very sorry .
+< i am very very sorry . <EOS>
+
+> 我病了。
+= i m sick .
+< i m sick . <EOS>
+
+> 他反对种族歧视。
+= he s opposed to racial discrimination .
+< he s opposed to racial discrimination . <EOS>
+
+> 你真是警惕。
+= you re very alert .
+< you re very alert . <EOS>
+
+> 我确定汤姆想来。
+= i m sure tom wanted to come along .
+< i m sure tom wanted to come along . <EOS>
+
+> 你的想法是對的。
+= you re on the right track .
+< you re on the right track . <EOS>
+
+> 我是她的，而她是我的。
+= i m hers and she s mine .
+< i m hers and she s mine . <EOS>
+
+> 我非常，非常抱歉。
+= i am very very sorry .
+< i am very very sorry . <EOS>
+
+> 我们都在冒险。
+= we re all at risk .
+< we re all at risk . <EOS>
+
+> 她只是個孩子。
+= she is a mere child .
+< she is only a child . <EOS>
+
+> 我很抱歉這麼遲才回復。
+= i m sorry for the delay in responding .
+< i m sorry for the delay in responding . <EOS>
+
+> 我是跑得最快的人。
+= i am the fastest runner .
+< i am the fastest runner . <EOS>
+
+> 她举止优雅。
+= she is graceful .
+< she is graceful . <EOS>
+
+> 我一直在這裡。
+= i m always here .
+< i m always here . <EOS>
+
+> 我厭倦了翻譯。
+= i m tired of translating .
+< i m tired of translating . <EOS>
+
+> 我没时间了。
+= i m out of time .
+< i m out of time . <EOS>
+
+> 你是退出的那個。
+= you re the one who quit .
+< you re the one who quit . <EOS>
+
+> 我愿意接受建议。
+= i m open to suggestions .
+< i m open to suggestions . <EOS>
+
+> 他已經長大該懂事了。
+= he is old enough to know better .
+< he is old enough to know better . <EOS>
+
+> 你注定失败。
+= you re bound to fail .
+< you re bound to fail . <EOS>
+
+> 我們很快樂。
+= we are happy .
+< we are happy . <EOS>
+
+> 他們的進度較預期慢30分鐘。
+= they re minutes behind schedule .
+< they re minutes behind schedule . <EOS>
+
+> 他总是对我很亲切。
+= he s always been kind to me .
+< he s always been kind to me . <EOS>
+
+> 我在学习计算机科学。
+= i m studying computer science .
+< i m studying computer science . <EOS>
+
+> 我以你為榮。
+= i m proud of you .
+< i m proud of you . <EOS>
+
+> 我对此负有责任。
+= i m responsible for that .
+< i m responsible for that . <EOS>
+
+> 我們是個家庭。
+= we re a family .
+< we re a family . <EOS>
+
+> 我們兩個同班。
+= we are both in the same class .
+< we are both in the same class . <EOS>
+
+> 她在上廁所。
+= she s in the restroom .
+< she s in the restroom . <EOS>
+
+> 她比你大兩歲。
+= she is two years older than you .
+< she s two years older than you . <EOS>
+
+> 我要告诉你真相。
+= i m going to tell you the truth .
+< i m going to tell you the truth . <EOS>
+
+> 他和我同岁。
+= he is the same age as me .
+< he is just my age . <EOS>
+
+> 我要去换衣服。
+= i m going to change my clothes .
+< i m going to change my clothes . <EOS>
+
+> 他今天在家。
+= he is at home today .
+< he is at home today . <EOS>
+
+> 我們今天晚上將舉行派對。
+= we re having a party this evening .
+< we re having a party this evening . <EOS>
+
+> 我今天忙。
+= i m busy today .
+< i am busy today . <EOS>
+
+> 你喝醉了！
+= you re drunk .
+< you are drunk ! <EOS>
+
+> 漢堡我都吃膩了。
+= i m sick and tired of hamburgers .
+< i m sick and tired of hamburgers . <EOS>
+
+> 他和她一样高。
+= he is as tall as her .
+< he is as tall as her . <EOS>
+
+> 我现在不特别渴。
+= i m not particularly thirsty right now .
+< i m not particularly thirsty right now . <EOS>
+
+> 她是一个著名的歌手。
+= she is a noted singer .
+< she is a noted singer . <EOS>
+
+> 你開玩笑吧！
+= you re kidding !
+< you re kidding ! <EOS>
+
+> 他比我年轻。
+= he s younger than me .
+< he s younger than me . <EOS>
+
+> 我非常困。
+= i m very sleepy .
+< i m very sleepy . <EOS>
+
+> 我厭倦了翻譯。
+= i m tired of translating .
+< i m tired of translating . <EOS>
+
+> 我非常，非常抱歉。
+= i am very very sorry .
+< i am very very sorry . <EOS>
+
+> 他跟我過不去。
+= he is giving me a hard time .
+< he is giving me a hard time . <EOS>
+
+> 他們不怕艱苦的工作。
+= they re not afraid of hard work .
+< they re not afraid of hard work . <EOS>
+
+> 我和他认识。
+= i am acquainted with him .
+< i am acquainted with him . <EOS>
+
+> 他是個好人。
+= he s a good person .
+< he s a good person . <EOS>
+
+> 我愛足球愛瘋了。
+= i m crazy about football .
+< i m crazy about football . <EOS>
+
+> 您在一个安全的地方。
+= you are in a safe place .
+< you are in a safe place . <EOS>
+
+> 我不是你母親。
+= i m not your mother .
+< i m not your mother . <EOS>
+
+> 她是喂我們的狗的人。
+= she is the one who feeds our dog .
+< she is the one who feeds our dog . <EOS>
+
+> 你真是個傻瓜！
+= you re such an idiot .
+< you re such an idiot . <EOS>
+
+> 她渴望住在澳洲。
+= she is eager to live in australia .
+< she is eager to live in australia . <EOS>
+
+> 他總是缺錢。
+= he s always running short of cash .
+< he s always running short of cash . <EOS>
+
+> 他一點也不怕蛇。
+= he s not at all afraid of snakes .
+< he s not at all afraid of snakes . <EOS>
+
+> 我没名气。
+= i m not famous .
+< i m not famous . <EOS>
+
+> 他習慣在公眾場合說話。
+= he s used to speaking in public .
+< he s used to speaking in public . <EOS>
+
+> 他們正在廚房裡說話。
+= they are talking in the kitchen .
+< they are talking in the kitchen . <EOS>
+
+> 我是从新加坡来的。
+= i m from singapore .
+< i m from singapore . <EOS>
+
+> 我不是很擅長游泳。
+= i m not very good at swimming .
+< i m not very good at swimming . <EOS>
+
+> 他们正努力降低成本。
+= they are trying to keep costs down .
+< they are trying to keep costs down . <EOS>
+
+> 我不回去。
+= i m not turning back .
+< i m not turning back . <EOS>
+
+> 他有点苍白。
+= he s a little pale .
+< he s a little pale . <EOS>
+
+> 我現在要去這家商店。
+= i am going to the store now .
+< i am going to the store now . <EOS>
+
+Average BLEU over 100 samples: 0.9468

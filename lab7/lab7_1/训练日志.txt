@@ -1,0 +1,439 @@
+(base) root@autodl-container-5be9469379-c8b581ad:~/autodl-tmp/lab7# python lab7.py
+Reading lines...
+Read 24026 sentence pairs
+Trimmed to 1471 sentence pairs
+Counting words...
+Counted words:
+cmn 1296
+eng 1113
+['我 累 得 再 也 走 不 動 了', 'i m too tired to walk any further']
+===> No saved models, start training...
+2m 10s (- 19m 32s) (5000 10%) 2.9105
+4m 20s (- 17m 21s) (10000 20%) 1.9063
+6m 30s (- 15m 10s) (15000 30%) 1.0544
+8m 43s (- 13m 4s) (20000 40%) 0.4955
+10m 51s (- 10m 51s) (25000 50%) 0.2757
+13m 1s (- 8m 40s) (30000 60%) 0.1829
+15m 12s (- 6m 31s) (35000 70%) 0.1231
+17m 18s (- 4m 19s) (40000 80%) 0.1150
+19m 23s (- 2m 9s) (45000 90%) 0.1084
+21m 32s (- 0m 0s) (50000 100%) 0.1012
+[Saved] train_loss1.png
+Saved encoder to ./checkpoints1/encoder.pt
+Saved decoder to ./checkpoints1/decoder.pt
+> 你 真 是 太 對 了
+= you re so right
+< you re so right <EOS>
+
+> 我 不 輕 易 放 棄
+= i m no quitter
+< i m no quitter <EOS>
+
+> 我 在 班 里 是 最 高 的
+= i m the tallest one in the class
+< i am the tallest in our class <EOS>
+
+> 他 是 个 胆 小 鬼
+= he is afraid of his own shadow
+< he is afraid of his own shadow <EOS>
+
+> 我 怕 死
+= i am afraid of dying
+< i m afraid of death <EOS>
+
+> 我 現 在 不 忙
+= i m not busy now
+< i m not busy now <EOS>
+
+> 我 们 已 是 成 年 人 了
+= we re adults
+< we re adults <EOS>
+
+> 他 和 她 一 样 高
+= he is as tall as her
+< he is as tall as her <EOS>
+
+> 我 好 孤 单
+= i m so lonely
+< i m so lonely <EOS>
+
+> 她 为 一 本 书 收 集 材 料
+= she s collecting material for a book
+< she is collecting material for a book <EOS>
+
+> 他 武 装 到 牙 齒
+= he is armed to the teeth
+< he is armed to the teeth <EOS>
+
+> 我 全 身 酸 痛
+= i m sore all over
+< i m sore all over <EOS>
+
+> 我是演员 不是模特
+= i m an actress not a model
+< i m an actress not a model <EOS>
+
+> 我 困 了
+= i m sleepy
+< i m sleepy <EOS>
+
+> 我 怕 死
+= i m afraid of dying
+< i m afraid of death <EOS>
+
+> 她 和 湯 姆 一 樣 忙
+= she s as busy as tom
+< she s as busy as tom <EOS>
+
+> 他 们 都 是 艺 术 家
+= they re both artists
+< they re both artists <EOS>
+
+> 我 累 死 了
+= i m dead tired
+< i m dead tired <EOS>
+
+> 他 比 你 大 兩 歲
+= he is two years older than you
+< he is two years older than you <EOS>
+
+> 我 頭 痛 得 厲 害
+= i m suffering from a bad headache
+< i m suffering from a bad headache <EOS>
+
+> 他 比 湯 姆 矮
+= he s shorter than tom
+< he s shorter than tom <EOS>
+
+> 我 渴 望 見 到 你
+= i m anxious to see you
+< i m anxious to see you <EOS>
+
+> 她 是 我 的 菜
+= she s my type
+< she s my type <EOS>
+
+> 你 要 南 辕 北 辙 了
+= you re not going in the right direction
+< you re not going in the right direction <EOS>
+
+> 他 的 数 学 很 不 好
+= he is terrible at math
+< he is terrible at math <EOS>
+
+> 我 为 我 儿 子 感 到 骄 傲
+= i m proud of my son
+< i m proud of my son <EOS>
+
+> 我 打 算 今 天 晚 上 讀 書
+= i m planning to study tonight
+< i m planning to study tonight <EOS>
+
+> 我 在 考 虑 明 年 去 国 外
+= i am thinking of going abroad next year
+< i m thinking of going abroad next year <EOS>
+
+> 我 个 子 高
+= i m tall
+< i m tall <EOS>
+
+> 他 比 他 的 弟 弟 高
+= he is taller than his brother
+< he is taller than his brother <EOS>
+
+> 你 真 是 太 好 了
+= you re really wonderful
+< you re really wonderful <EOS>
+
+> 他 對 你 非 常 生 氣
+= he s very angry with you
+< he s very angry with you <EOS>
+
+> 他 是 我 的 哥 哥
+= he s my older brother
+< he s my older brother <EOS>
+
+> 我 没 在 忙
+= i m not busy
+< i m not busy <EOS>
+
+> 我 厌 恶 他
+= i am disgusted with him
+< i am disgusted with him <EOS>
+
+> 我 期 待 聖 誕 節 的 到 來
+= i am looking forward to christmas
+< i am looking forward to christmas <EOS>
+
+> 她 在 超 市 做 秘 书
+= she is a clerk in the supermarket
+< she is a clerk in the supermarket <EOS>
+
+> 我 不 怕 死
+= i am not afraid of dying
+< i m not afraid of dying <EOS>
+
+> 你 要 对 结 果 负 责
+= you are responsible for the result
+< you are responsible for the result <EOS>
+
+> 他 總 是 缺 錢
+= he s always running short of cash
+< he s always running short of cash <EOS>
+
+> 我 們 現 在 就 要 吃 飯
+= we re going to eat now
+< we re going to eat now <EOS>
+
+> 她 就 是 所 谓 的 书 虫
+= she is what we call a bookworm
+< she is what we call a bookworm <EOS>
+
+> 我 住 在 我 姑 姑 家
+= i m staying at my aunt s
+< i m staying at my aunt s <EOS>
+
+> 我 1 6 岁 了
+= i am sixteen years old
+< i am sixteen years old <EOS>
+
+> 你 是 我 们 唯 一 的 希 望
+= you re our only hope
+< you re our only hope <EOS>
+
+> 她 的 確 是 正 確 的
+= she s correct for sure
+< she s correct for sure <EOS>
+
+> 我 在 右 邊
+= i am on the right
+< i am on the right <EOS>
+
+> 能 够 出 一 份 力 太 好 了
+= i m glad i could help out
+< i m glad i could help <EOS>
+
+> 我 没 穿 裤 子
+= i m not wearing pants
+< i m not wearing pants <EOS>
+
+> 他 擅 長 放 風 箏
+= he s good at flying kites
+< he s good at flying kites <EOS>
+
+> 我 跟 我 父 親 一 樣 高
+= i m as tall as my father
+< i m as tall as my father <EOS>
+
+> 我 也 是 1 7 岁
+= i m 17 too
+< i m 17 too <EOS>
+
+> 他 習 慣 了 旅 行
+= he s accustomed to traveling
+< he s used to traveling <EOS>
+
+> 他 心 情 不 好
+= he s in a bad mood
+< he s in a bad mood <EOS>
+
+> 她 很 善 于 砍 价
+= she s good at bargaining the price down
+< she s good at bargaining the price down <EOS>
+
+> 我 差 不 多 完 成 了
+= i m just about done
+< i m just about done <EOS>
+
+> 我 快 好 了
+= i m about ready
+< i m about ready <EOS>
+
+> 你 要 对 结 果 负 责
+= you are responsible for the result
+< you are responsible for the result <EOS>
+
+> 她 是 一 個 很 好 的 舞 者
+= she is a good dancer
+< she is a good dancer <EOS>
+
+> 他 怕 蛇
+= he s afraid of snakes
+< he is afraid of snakes <EOS>
+
+> 你 个 傻 子
+= you re an idiot
+< you re an idiot <EOS>
+
+> 我 看 電 視 看 到 厭 煩 了
+= i m tired of watching television
+< i m tired of watching television <EOS>
+
+> 我 真 的 好 忙
+= i m really busy
+< i m really busy <EOS>
+
+> 我 還 要 再 待 幾 個 星 期
+= i am staying for another few weeks
+< i am staying for another few weeks <EOS>
+
+> 你 總 是 在 看 電 視
+= you are always watching tv
+< you are always watching tv <EOS>
+
+> 她 不 是 小 孩
+= she s not a child
+< she s not a child <EOS>
+
+> 你 是 一 个 美 丽 的 女 孩
+= you re a beautiful young woman
+< you re a beautiful young woman <EOS>
+
+> 我 厌 倦 了 听 汤 姆 说 话
+= i m tired of listening to tom
+< i m tired of listening to tom <EOS>
+
+> 他 害 怕 蛇
+= he is afraid of snakes
+< he is afraid of snakes <EOS>
+
+> 我 现 在 3 0 岁 了
+= i am 30 years old now
+< i am 30 years old now <EOS>
+
+> 他 星 期 日 總 是 在 家 裡
+= he s always at home on sundays
+< he s always at home on sundays <EOS>
+
+> 你 是 教 授
+= you are a professor
+< you are a professor <EOS>
+
+> 我 不 是 个 母 语 者
+= i m not a native speaker
+< i m not a native speaker <EOS>
+
+> 他 们 是 热 爱 和 平 的 人
+= they are peace loving people
+< they are peace loving people <EOS>
+
+> 我 受 够 英 文 了
+= i m fed up with english
+< i m fed up with english <EOS>
+
+> 你 是 教 授
+= you are a professor
+< you are a professor <EOS>
+
+> 他很聪明 而且他很帅
+= he s very smart and he s handsome too
+< he s very smart and he s handsome too <EOS>
+
+> 我 是 个 学 生
+= i am a student
+< i am a student <EOS>
+
+> 他 说 法 语 说 得 很 流 利
+= he is fluent in french
+< he is fluent in french <EOS>
+
+> 我 開 始 同 意 你 了
+= i m starting to agree with you
+< i m starting to agree with you <EOS>
+
+> 我 吃 飽 了
+= i m full
+< i m full <EOS>
+
+> 他 们 肯 定 会 相 恋 的
+= they are sure to fall in love
+< they are sure to fall in love <EOS>
+
+> 我 相 当 高
+= i m pretty tall
+< i m pretty tall <EOS>
+
+> 我 很 难 过
+= i am very sad
+< i m sad <EOS>
+
+> 他 是 個 糟 糕 的 司 機
+= he is a bad driver
+< he is a bad driver <EOS>
+
+> 能 够 出 一 份 力 太 好 了
+= i m glad i could help you
+< i m glad i could help <EOS>
+
+> 她 在 节 食
+= she is on a diet
+< she is on a diet <EOS>
+
+> 我 怕 死
+= i am afraid of dying
+< i m afraid of death <EOS>
+
+> 她 的 母 語 是 法 語
+= she is a native speaker of french
+< she is a native speaker of french <EOS>
+
+> 他 有 点 活 泼
+= he s a bit energetic
+< he s a bit lively <EOS>
+
+> 我 差 不 多 完 成 了
+= i m nearly finished
+< i m just about done <EOS>
+
+> 他 非 常 生 气
+= he s really angry
+< he is very angry <EOS>
+
+> 她 问 这 怎 么 可 能
+= she s asking how that s possible
+< she s asking how that s possible <EOS>
+
+> 我 在 告 訴 你 真 相
+= i m telling you the truth
+< i m telling you the truth <EOS>
+
+> 他 很 高
+= he is very tall
+< he is very tall <EOS>
+
+> 你很勇敢 不是嗎
+= you re really brave aren t you
+< you re really brave aren t you <EOS>
+
+> 我 身 体 不 适
+= i m not feeling well
+< i m not well <EOS>
+
+> 我 困 了
+= i m sleepy
+< i m sleepy <EOS>
+
+> 我 迷 失 了
+= i am lost
+< i am lost <EOS>
+
+> 我 們 都 餓 了
+= we re all hungry
+< we re all hungry <EOS>
+
+The bleu_score is  0.8917095345355815
+input = 他 和 他 的 邻 居 相 处
+output = he is getting along with his neighborhood <EOS>
+[Saved] attention1_1.png
+input = 我 肯 定 他 会 成 功 的
+output = i am sure of his success <EOS>
+[Saved] attention1_2.png
+input = 他 總 是 忘 記 事 情
+output = he is always forgetting things <EOS>
+[Saved] attention1_3.png
+input = 我 们 非 常 需 要 食 物
+output = we are badly in need of food <EOS>
+[Saved] attention1_4.png
+input = 你 只 是 玩
+output = you re always <EOS>
+[Saved] attention1_5.png
